@@ -1,0 +1,244 @@
+
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    background: linear-gradient(to right, rgb(0, 0, 0), #1F2937);
+    overflow: auto;
+}
+
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.myname {
+
+    color: white;
+    display: flex;
+    flex-direction: row;
+    font-size: 17px;
+    font-family: Roboto;
+    justify-content: flex-end;
+    font-style: italic;
+    opacity: 0.8;
+    position: right;
+
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    gap: 54px;
+    width: 65%;
+    padding-top: 56px;
+    padding-bottom: 56px;
+    padding-left: 56px;
+    padding-right: 12px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.project-details-container {
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 16px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.project-heading {
+    flex: none;
+    height: auto;
+    position: relative;
+  
+}
+
+.heading {
+    background-image: url(https://framerusercontent.com/images/2IaeICXvsJApqTXCae1q1dVMVIE.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 0%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+    font-size: 90px;
+    font-family: Outfit, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    letter-spacing: 0px;
+    white-space: normal;
+    line-height: 1;
+    margin: 0px;
+    padding: 0px 0px 10px;
+}
+
+.project-description {
+    position: relative;
+    white-space: pre-wrap;
+    max-width: 569px;
+    word-break: break-word;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+}
+
+.description {
+    font-family: Outfit, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    line-height: 24px;
+    color: rgb(97, 120, 151);
+    margin: 0px;
+}
+
+
+
+.profile-section {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 1000px;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.profile-pic-container {
+    width: 85px;
+    position: relative;
+    aspect-ratio: 1 / 1;
+    height: 85px;
+    border-radius: 40px;
+    box-shadow: 0 10px 25px #0b21e2, 0 -5px 25px #e71515;
+}
+
+.profile-pic {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: inherit;
+}
+
+.student-pic {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-position: center;
+    object-fit: cover;
+    image-rendering: auto;
+}
+
+.profile-info-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: flex-start;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+}
+
+.name {
+    font-size: 30px;
+    margin: 0px;
+    color: white;
+    font-weight: 600;
+    font-style: bold;
+
+}
+
+.bot-extra-info {
+    color: rgba(212, 212, 212, 0.6);
+    margin: 0px;
+    font-weight: 500;
+    font-family: Outfit, Sans-Serif;
+}
+
+
+
+@keyframes beating {
+    0% {
+        font-size: 10px;
+    }
+
+    100% {
+        font-size: 20px;
+    }
+}
+
+
+.heart-beat {
+    width: 10px;
+    height: 10px;
+    animation: beating 0.8s infinite;
+    font-size: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 6px;
+}
+
+
+.zoom-svg {
+    pointer-events: none;
+}
+
+
+.click{
+    border-radius: 30px;
+    width: 40%;
+    height: 55%;
+   background-color: rgb(11, 31, 39);
+   color: rgb(224, 31, 31);
+   border:  none;
+}
+
+.but{
+    text-align: center;
+   
+    font-size: medium;
+    font-weight: 600;
+}
+
+.click:hover{
+    background: linear-gradient(to right, rgb(0, 0, 0), #1F2937); ;
+}
+
+.click:active{
+    transform: translateY(4px);
+}
+
+a{
+    list-style: none;
+}
