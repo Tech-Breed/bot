@@ -10,7 +10,7 @@ html,body
     -ms-user-select:none;
     -moz-user-select:none;
     -webkit-user-select:none;
-    background-color: rgb(26, 25, 25);
+    background: linear-gradient(to right, rgb(0, 0, 0), #1F2937);
     /* background-image: url(images/3ee01b37b8681ee8deac47afa9ac4d68.jpg); */
     background-size:cover;
     background-position:center;
