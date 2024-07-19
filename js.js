@@ -3,7 +3,7 @@ const responses= ThingsICanDo = [
     "What's my name ?",
     "What's the time ?",
     "What date is it today?",
-    "Hello Trek",
+    "Hello mimo",
   "Tell me a story",
   "your best friend",
     
